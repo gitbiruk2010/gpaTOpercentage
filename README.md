@@ -66,7 +66,6 @@ The program accepts user input for a GPA, validates it, and outputs the correspo
 
 ---
 
-## Additional Information
 ### Conversion Logic
 The program uses a `switch` statement to determine the corresponding percentage range for each GPA value. The GPA is multiplied by 10 and cast to an integer to facilitate case matching.
 
