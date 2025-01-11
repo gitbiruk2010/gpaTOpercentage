@@ -14,7 +14,7 @@ The **GPA to Percentage Converter** program is a Java-based application that con
 
 - **Interactive Testing**: 
   - Users can test multiple GPAs consecutively.
-  - Option to exit the program when done.
+  - Option either to continue orexit the program when done.
 
 - **Output Clarity**: 
   - Converts GPA to a percentage range using a `switch` statement.
