@@ -1,6 +1,6 @@
 # GPA to Percentage Converter
 
-## Overview
+## Program desctiiption
 The **GPA to Percentage Converter** program is a Java-based application that converts a user's GPA (Grade Point Average) into its corresponding percentage range. The program is designed to handle different invalid inputs.
 
 ---
@@ -9,16 +9,24 @@ The **GPA to Percentage Converter** program is a Java-based application that con
 - **Dynamic Input Handling**: 
   - Accepts user input in decimal format for GPAs.
   - Validates inputs to ensure they are within the range of 0.0 to 4.0.
-  - Handles invalid numeric inputs
-  - Manages non-numeric inputs
+  - Handles invalid numeric inputs.
+  - Manages non-numeric inputs.
 
 - **Interactive Testing**: 
   - Users can test multiple GPAs consecutively.
-  - Option either to continue orexit the program when done.
+  - Option either to continue or exit the program when done.
+
+- **Automated Test Cases**:
+  - Built-in normal and edge test cases for validating the program.
+  - Includes test cases for valid inputs, out-of-range inputs, and non-numeric inputs.
 
 - **Output Clarity**: 
   - Converts GPA to a percentage range using a `switch` statement.
   - Displays messages for valid and invalid inputs.
+  - Differentiates test case outputs with categorized sections for clarity.
+
+- **User Choice**:
+  - At program start, users can choose to run their own GPA tests or execute pre-defined test cases.
 
 ---
 
@@ -36,10 +44,6 @@ The **GPA to Percentage Converter** program is a Java-based application that con
 ## Program Output
 The program accepts user input for a GPA, validates it, and outputs the corresponding percentage range.
 
-### Sample Outputs
-1. **Valid Input Example**:
-   - **Input**: `3.7`
-   - **Output**: `Percentage: <93.0% to 92.0%`
 
 ### Conversion Logic
 The program uses a `switch` statement to determine the corresponding percentage range for each GPA value. The GPA is multiplied by 10 and cast to an integer to facilitate case matching.
